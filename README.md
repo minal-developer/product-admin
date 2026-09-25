@@ -1,16 +1,33 @@
-# Next.js Product Admin Dashboard
+# Product Admin Dashboard
 
-A full-featured Product Admin Dashboard built with Next.js 14 (App Router, JavaScript), Tailwind CSS, React Context, and Axios.
+A responsive Product Admin Dashboard built with Next.js, Tailwind CSS, and the DummyJSON API.
 
-## 🚀 Features
-- **Auth Flow**: JWT Login (`emilys` / `emilyspass`), token storage in `localStorage`, protected routes.
-- **Axios Interceptors**: Global request auth header injection and automatic response error handling.
-- **Product Management**: Desktop table view & mobile card layout with pagination, search, category filter, and multi-column sorting.
-- **Debounced Search**: Cancellable API requests using standard browser `AbortController`.
-- **Local State Sync**: Simulated Add, Edit, and Delete actions maintaining optimistic local state.
+- **Live Demo:** https://product-admin-liart.vercel.app
+- **GitHub Repository:** https://github.com/minal-developer/product-admin
 
-## 📦 Local Setup
+---
 
-1. Install dependencies:
+## Finished Features
+
+- **Product Views:** Interactive table for desktop screens and clean card layout for mobile screens.
+- **Search, Filter & Sort:** Filter products by category, search by title, and sort by price or name.
+- **URL Sync:** Preserves search query, category, sorting, and pagination state directly in the browser URL.
+- **CRUD Actions:** Interactive modal workflows to add, edit, and delete products.
+
+---
+
+## Tech Stack
+
+- Next.js (App Router)
+- Tailwind CSS
+- Axios
+- DummyJSON API
+
+---
+
+## How to Run Locally
+
+1. **Clone repo:**
    ```bash
-   npm install
+   git clone [https://github.com/minal-developer/product-admin.git](https://github.com/minal-developer/product-admin.git)
+   cd product-admin
